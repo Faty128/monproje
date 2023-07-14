@@ -122,88 +122,85 @@ font-weight: 600;
 justify-content: space-around;
 }
 
-.img-blog{
-    width: 100%;
-    height: 50vh;
-    background-color: rgb(221, 218, 218);
 
+.div-section{
+    width: 100%;
+    height: 60vh;
+    background-color: gainsboro;
 }
 
-.img-blog2{
+.div-contain{
     display: flex;
     justify-content: center;
-
-    
-} 
-
-.nixon{
-    width: 25%;
-    height: 30vh;
-    margin-top: -20px;
-    background-color: orange;
-    color: #fff;
-    padding-top: 20px;
+    position: relative;
+    bottom: 50px;
 }
 
-.sweetes{
-    width: 25%;
-    height: 30vh;
-    margin-top: -20px;
-    color: #fff;
-    padding-top: 20px;
-    background-color:  rgb(206, 202, 202);
+.div-contain .div1{
+    background-color: rgb(241, 101, 50);
+    width: 40%;
+    height: 300px;
 }
 
-.bode{
-    margin-top: -13rem;
-    margin-left: 25%;
-}
-.bod{
-    width: 50vh;
-    margin: auto;
+.div-contain .div2{
+    background-color: gray;
+    width: 40%;
+    height: 300px;
 }
 
 fieldset{
-    width: 50%;
-    height: 20vh;
-    margin: auto;
-    border: 3px solid;
-    border-color: #fff;
-    z-index: -1;
-
-}
-
-.h1{
-    padding-top: 6%;
-    text-align: center;
-    align-items: center;
-}
-.pore{
-    display: flex;
-    font-size: 8px;
-    gap: 15px;
-    margin-left: 20%;
-    text-transform: uppercase;
-} 
-
-.div{
-    display: flex;
-    margin: auto;
-    z-index: auto;
-}
-.montre{
-    width: 100%;
-    z-index: -1;
-    float: left;
-    padding-left: 15vh;  
-    margin-top: -60px;
-}
-.mtre{
     width: 70%;
-    height: 115%;
-    margin-top: -35px;
-    padding-left: 200%;
+    height: 200px;
+    border: 3px solid white;
+    position: relative;
+    left: 55px;
+    top: 10px;
 }
+
+.nixon{
+    background-image: url(image/montre-1-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 310px bottom;
+    width: 100%;
+    height: 100%;
+}
+
+.sweet{
+    background-image: url(image/Nike-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 80px bottom;
+    width: 100%;
+    height: 100%; 
+}
+
+legend{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+.linke a{
+    color: #fff;
+    font-size: 10px;
+    word-spacing: 5px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    position: relative;
+    left: 55px;
+    top: -40px;
+    text-decoration: none;
+}
+
+.div-section h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-top: 65px;
+}
+
 
 @media screen and (min-width: 425px) {
     .entéte{
@@ -214,17 +211,11 @@ fieldset{
         display: inline-block;
         flex-direction: row;
     }
-    
-    
+     
 }
 @media screen and (max-width: 768px){
-    .div{
-        display: flex;
-        flex-direction: wrap;
-        margin-left: -18vh;
-    }
-    .bode{
-        width: 100%;
-        margin-left: -40px;
-    }
+    .div-contain{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        }
 }
