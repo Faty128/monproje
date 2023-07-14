@@ -1,0 +1,230 @@
+body{
+padding: 0px;
+margin: 0px;
+font-family: Arial;
+}
+
+.h5{
+    padding-left: 8rem;
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+.entéte{
+    width: 100%;
+    background-color: #222222;
+    color: gray;
+    justify-content: space-around;
+    display: flex;
+}
+
+.navbar{
+    display: inline;
+    margin-top: 15px;
+}
+
+.navbar p{
+    display: inline;
+    margin-left: 10px;
+    font-size: 10px;
+
+}
+.menu{
+    width: 100%;
+    height: 30px;
+}
+
+ul, li{
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 600;
+    gap: 5%;
+}
+
+.icone{
+    display: flex;
+    gap: 30px;
+}
+
+.p3{
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    background-color: orange;
+    font-size: small;
+    color: white;
+    text-align: center;
+    margin-top: -10px;
+    margin-left: -40px;
+}
+
+.logo .img{
+    margin-left: 12%;
+    width: 100px;
+    height: 95px;
+    margin-top: -90px;
+}
+
+.fond-img{
+    width: 100%;
+    margin-top: 15px;
+    height: 100vh;
+    background: url('image/chossure.jpg') no-repeat;
+    background-size: 100rem;
+}
+
+.puma{
+    padding-top: 8%;
+    width: 10%;
+    margin: auto;
+    display: block;
+} 
+
+.border{
+border-bottom: 3px solid orange;
+width: 8%;
+margin: auto;
+padding-top: 2%;
+}
+
+.text{
+    text-align: center;
+}
+
+.text h1{
+    font-family: Arial;
+    font-weight: 600;
+    font-size: 50px;
+    color: white;
+    text-transform: capitalize;
+}
+
+.text p{
+    color: white;
+    font-size: small;
+}
+
+.button{
+margin: auto;
+width: 160px;
+padding-top: 5%;
+
+}
+
+.button .find{
+height: 40px;
+background-color: transparent;
+border-color: white;
+color: #fff;
+font-size: 10px;
+font-weight: 600;
+justify-content: space-around;
+}
+
+.img-blog{
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(221, 218, 218);
+
+}
+
+.img-blog2{
+    display: flex;
+    justify-content: center;
+
+    
+} 
+
+.nixon{
+    width: 25%;
+    height: 30vh;
+    margin-top: -20px;
+    background-color: orange;
+    color: #fff;
+    padding-top: 20px;
+}
+
+.sweetes{
+    width: 25%;
+    height: 30vh;
+    margin-top: -20px;
+    color: #fff;
+    padding-top: 20px;
+    background-color:  rgb(206, 202, 202);
+}
+
+.bode{
+    margin-top: -13rem;
+    margin-left: 25%;
+}
+.bod{
+    width: 50vh;
+    margin: auto;
+}
+
+fieldset{
+    width: 50%;
+    height: 20vh;
+    margin: auto;
+    border: 3px solid;
+    border-color: #fff;
+    z-index: -1;
+
+}
+
+.h1{
+    padding-top: 6%;
+    text-align: center;
+    align-items: center;
+}
+.pore{
+    display: flex;
+    font-size: 8px;
+    gap: 15px;
+    margin-left: 20%;
+    text-transform: uppercase;
+} 
+
+.div{
+    display: flex;
+    margin: auto;
+    z-index: auto;
+}
+.montre{
+    width: 100%;
+    z-index: -1;
+    float: left;
+    padding-left: 15vh;  
+    margin-top: -60px;
+}
+.mtre{
+    width: 70%;
+    height: 115%;
+    margin-top: -35px;
+    padding-left: 200%;
+}
+
+@media screen and (min-width: 425px) {
+    .entéte{
+        display: flex;
+        flex-direction: wrap;
+    } 
+    .navbar{
+        display: inline-block;
+        flex-direction: row;
+    }
+    
+    
+}
+@media screen and (max-width: 768px){
+    .div{
+        display: flex;
+        flex-direction: wrap;
+        margin-left: -18vh;
+    }
+    .bode{
+        width: 100%;
+        margin-left: -40px;
+    }
+}
